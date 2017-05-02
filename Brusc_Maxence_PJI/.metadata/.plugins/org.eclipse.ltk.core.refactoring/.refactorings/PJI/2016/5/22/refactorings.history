@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;PJI/src/Detectionc.cpp&apos; to &apos;DetectionC.cpp&apos;" description="Rename resource &apos;Detectionc.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Detectionc.cpp" name="DetectionC.cpp" stamp="1464144906947" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;PJI/src/Detectionc.h&apos; to &apos;DetectionC.h&apos;" description="Rename resource &apos;Detectionc.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Detectionc.h" name="DetectionC.h" stamp="1464144964797" updateReferences="true"/>
+</session>

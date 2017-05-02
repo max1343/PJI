@@ -1,0 +1,92 @@
+07:21:16 **** Incremental Build of configuration Debug for project PJI ****
+make all 
+Building file: ../src/DetectionVisage.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DetectionVisage.d" -MT"src/DetectionVisage.o" -o "src/DetectionVisage.o" "../src/DetectionVisage.cpp"
+Finished building: ../src/DetectionVisage.cpp
+ 
+Building target: PJI
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "PJI"  ./src/Appariement.o ./src/Catalogue.o ./src/DetectionExp.o ./src/DetectionGenre.o ./src/DetectionVisage.o ./src/Main.o ./src/Person.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_flann -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_ml -lopencv_objdetect -lopencv_photo -lopencv_shape -lopencv_stitching -lopencv_superres -lopencv_video -lopencv_videoio -lopencv_videostab
+Finished building target: PJI
+ 
+07:21:29 **** Incremental Build of configuration Debug for project PJI ****
+make all 
+make: Nothing to be done for `all'.
+07:22:55 **** Incremental Build of configuration Debug for project PJI ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: PJI
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "PJI"  ./src/Appariement.o ./src/Catalogue.o ./src/DetectionExp.o ./src/DetectionGenre.o ./src/DetectionVisage.o ./src/Main.o ./src/Person.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_flann -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_ml -lopencv_objdetect -lopencv_photo -lopencv_shape -lopencv_stitching -lopencv_superres -lopencv_video -lopencv_videoio -lopencv_videostab
+Finished building target: PJI
+ 
+07:25:16 **** Clean-only build of configuration Debug for project PJI ****
+make clean 
+rm -rf  ./src/Appariement.o ./src/Catalogue.o ./src/DetectionExp.o ./src/DetectionGenre.o ./src/DetectionVisage.o ./src/Main.o ./src/Person.o  ./src/Appariement.d ./src/Catalogue.d ./src/DetectionExp.d ./src/DetectionGenre.d ./src/DetectionVisage.d ./src/Main.d ./src/Person.d  PJI
+ 
+07:26:19 **** Build of configuration Debug for project PJI ****
+make all 
+Building file: ../src/Appariement.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Appariement.d" -MT"src/Appariement.o" -o "src/Appariement.o" "../src/Appariement.cpp"
+../src/Appariement.cpp:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../src/Appariement.cpp
+ 
+Building file: ../src/Catalogue.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Catalogue.d" -MT"src/Catalogue.o" -o "src/Catalogue.o" "../src/Catalogue.cpp"
+Finished building: ../src/Catalogue.cpp
+ 
+Building file: ../src/DetectionExp.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DetectionExp.d" -MT"src/DetectionExp.o" -o "src/DetectionExp.o" "../src/DetectionExp.cpp"
+Finished building: ../src/DetectionExp.cpp
+ 
+Building file: ../src/DetectionGenre.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DetectionGenre.d" -MT"src/DetectionGenre.o" -o "src/DetectionGenre.o" "../src/DetectionGenre.cpp"
+Finished building: ../src/DetectionGenre.cpp
+ 
+Building file: ../src/DetectionVisage.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DetectionVisage.d" -MT"src/DetectionVisage.o" -o "src/DetectionVisage.o" "../src/DetectionVisage.cpp"
+Finished building: ../src/DetectionVisage.cpp
+ 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/Person.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
+Finished building: ../src/Person.cpp
+ 
+Building target: PJI
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "PJI"  ./src/Appariement.o ./src/Catalogue.o ./src/DetectionExp.o ./src/DetectionGenre.o ./src/DetectionVisage.o ./src/Main.o ./src/Person.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_flann -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_ml -lopencv_objdetect -lopencv_photo -lopencv_shape -lopencv_stitching -lopencv_superres -lopencv_video -lopencv_videoio -lopencv_videostab
+Finished building target: PJI
+ 
+07:27:15 **** Incremental Build of configuration Debug for project PJI ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: PJI
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "PJI"  ./src/Appariement.o ./src/Catalogue.o ./src/DetectionExp.o ./src/DetectionGenre.o ./src/DetectionVisage.o ./src/Main.o ./src/Person.o   -lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_flann -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_ml -lopencv_objdetect -lopencv_photo -lopencv_shape -lopencv_stitching -lopencv_superres -lopencv_video -lopencv_videoio -lopencv_videostab
+Finished building target: PJI
+ 
+07:38:40 **** Incremental Build of configuration Debug for project PJI ****
+make all 
+make: Nothing to be done for `all'.

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;PJI/src/VideoDetecter.cpp&apos; to &apos;Main.cpp&apos;" description="Rename resource &apos;VideoDetecter.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/VideoDetecter.cpp" name="Main.cpp" stamp="1462352596753" updateReferences="true"/>
+</session>
